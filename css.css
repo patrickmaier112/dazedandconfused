@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+	}
+body {
+	width: 100%;
+    overflow-x: hidden;
+	bottom: 0;
+}
+main {
+	width: 100%;
+    overflow-x: hidden;
+}
+nav {
+	border-bottom: 5px solid;
+	border-color: rgb(217, 104, 166);
+	position: fixed;
+}
+nav img {
+	width: 90px;
+	padding: 5px 10px;
+}
+nav span {
+	color: rgb(217, 104, 166);
+}
+.carousel-caption p {
+	padding: 5px;
+	background-color: black;
+	opacity: 0.8;
+}
+h2{
+	padding: 5px 15px;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	border-color: rgb(217, 104, 166);
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	font-size: 20px;
+}
+h4 {
+	text-align: center;
+	font-size: 16px;
+}
+.descriere p {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	text-align: justify;
+	vertical-align: middle;
+	font-size: 22px;
+}
+.descriere img {
+	width: 100%;
+}
+.citat p{
+	text-align: center;
+	font-size: 20px;
+}
+.row {
+	justify-content: space-around;
+}
+.card {
+	margin: 10px;
+}
+.card p {
+	text-align: center;
+	padding-top: 15px;
+}
+.harta {
+	text-align:center;
+}
+footer {
+	border-top: 5px solid;
+	border-color: rgb(217, 104, 166);
+	bottom: 0;
+}
+footer p {
+	padding: 30px 0px;
+	text-align: center;
+}
